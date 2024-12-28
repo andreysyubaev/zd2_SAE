@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.LoginPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="20" Padding="20" BackgroundColor="#f0f0f0">
+        <!-- Логотип -->
+        <Image Source="logo.png" HeightRequest="100" WidthRequest="100" Margin="0,0,0,20"/>
+
+        <!-- Поле ввода для имени пользователя -->
+        <Frame BackgroundColor="White" Padding="10" HasShadow="False" CornerRadius="5">
+            <Entry x:Name="UsernameEntry" Placeholder="Введите имя пользователя" PlaceholderColor="#ccc" TextColor="Black"/>
+        </Frame>
+
+        <!-- Поле ввода для пароля -->
+        <Frame BackgroundColor="White" Padding="10" HasShadow="False" CornerRadius="5">
+            <Entry x:Name="PasswordEntry" Placeholder="Введите пароль" IsPassword="True" PlaceholderColor="#ccc" TextColor="Black"/>
+        </Frame>
+
+        <!-- Кнопка входа -->
+        <Button Text="Войти" Clicked="OnLoginButtonClicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="5" Padding="15" Margin="0,20,0,0"/>
+    </StackLayout>
+</ContentPage>

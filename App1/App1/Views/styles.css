@@ -1,0 +1,23 @@
+﻿/* styles.css */
+
+.login-page {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    height: 100;
+    width: 100;
+    margin-bottom: 20;
+}
+
+.entry {
+    margin-bottom: 10;
+    padding: 10;
+}
+
+.button {
+    background-color: #2196F3;
+    color: white;
+    padding: 15;
+    margin-top: 20;
+}
